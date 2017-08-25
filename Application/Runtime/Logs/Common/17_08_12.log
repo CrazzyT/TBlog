@@ -1,0 +1,24 @@
+[ 2017-08-12T10:39:31+08:00 ] 127.0.0.1 /HB/month1/Blog/index.php/login.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Login
+
+[ 2017-08-12T10:39:31+08:00 ] 127.0.0.1 /HB/month1/Blog/index.php/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Login
+
+[ 2017-08-12T10:45:14+08:00 ] 127.0.0.1 /HB/month1/Blog/index.php/login.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Login
+
+[ 2017-08-12T10:45:14+08:00 ] 127.0.0.1 /HB/month1/Blog/index.php/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Login
+

@@ -1,0 +1,1067 @@
+[ 2017-08-19T09:55:29+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.040002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.480028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.480028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023001s ]
+
+[ 2017-08-19T09:55:32+08:00 ] 127.0.0.1 /admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2017-08-19T09:55:32+08:00 ] 127.0.0.1 /admin.php/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-19T09:55:41+08:00 ] 127.0.0.1 /admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0910s ]
+SQL: SELECT * FROM `my_user` WHERE `user_name` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `my_user` SET `user_ip`='127.0.0.1',`user_time`='1503107741' WHERE `user_id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-08-19T09:55:41+08:00 ] 127.0.0.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-19T09:56:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T09:57:48+08:00 ] 127.0.0.1 /admin.php/Title/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0880s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-19T09:57:49+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-19T09:57:51+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.1140s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T09:58:36+08:00 ] 127.0.0.1 /admin.php/Title/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-19T09:58:36+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-19T09:58:38+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.2840s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T09:59:00+08:00 ] 127.0.0.1 /admin.php/Title/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-19T09:59:00+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-19T09:59:02+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:00:00+08:00 ] 127.0.0.1 /admin.php/Title/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:00:01+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-19T10:00:02+08:00 ] 127.0.0.1 /admin.php/Title/show.html?type_name=0&keywords=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:00:02+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-19T10:00:04+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:00:32+08:00 ] 127.0.0.1 /admin.php/Title/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.1010s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-19T10:00:32+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-19T10:00:33+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:01:05+08:00 ] 127.0.0.1 /admin.php/Title/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:01:06+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-19T10:01:07+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-19T10:01:27+08:00 ] 127.0.0.1 /admin.php/Title/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.1230s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:01:28+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-19T10:01:29+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-19T10:01:38+08:00 ] 127.0.0.1 /admin.php/Title/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:01:38+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-19T10:01:41+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-19T10:01:43+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-19T10:01:52+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:02:00+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:02:46+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-19T10:15:10+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:15:18+08:00 ] 127.0.0.1 /admin.php/Title/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-19T10:15:18+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-19T10:15:19+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:17:57+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T10:18:12+08:00 ] 127.0.0.1 /admin.php/Title/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_label` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `my_label`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T11:04:41+08:00 ] 127.0.0.1 /admin.php/Title/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-19T11:04:41+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-19T11:04:54+08:00 ] 127.0.0.1 /admin.php/Title/show.html?type_name=4&keywords=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `my_type`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-19T11:04:54+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-19T11:05:01+08:00 ] 127.0.0.1 /admin.php/Title/show?map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TitleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\phpStudy\WWW\HB\month1\Blog\Application\Admin\Controller\TitleController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `my_title` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `my_title` WHERE `status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0000s ]
+
